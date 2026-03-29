@@ -13,13 +13,13 @@ The app was built as part of a model deployment challenge requiring:
 - selection of a previously developed model,
 - a minimal Flask interface,
 - Docker-based containerization,
-- and deployment readiness. :contentReference[oaicite:0]{index=0}
+- and deployment readiness. 
 
 Based on the training notebook, the model was trained on a custom safety vest dataset and evaluated on a validation split, achieving approximately:
 - **Precision:** 0.784
 - **Recall:** 0.693
 - **mAP@0.5:** 0.733
-- **mAP@0.5:0.95:** 0.309 :contentReference[oaicite:1]{index=1}
+- **mAP@0.5:0.95:** 0.309
 
 ---
 
@@ -55,6 +55,7 @@ safety-vest-detector/
 │   └── results/
 └── templates/
     └── index.html
+```
 
 ## How to run locally using Docker
 1. Open a terminal in the project folder
