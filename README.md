@@ -62,6 +62,7 @@ safety-vest-detector/
 2. Build the Docker image: docker build -t safety-vest-app .
 3. Run the Docker container: docker run -p 5000:5000 safety-vest-app
 4. Open the app in your browser: Go to: http://127.0.0.1:5000
+   
 If the container starts successfully, the app should load in your browser and be ready for testing.
 
 ## How to use the interface
